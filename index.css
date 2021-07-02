@@ -62,9 +62,10 @@ input[type=submit] {
 
 table {
     table-layout: fixed;
-    width: 100%;
+    width: 75%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: 3px solid rgba(111, 145, 184, 0.829);
+    margin: 120px auto;
   }
   
   thead th:nth-child(1) {
@@ -83,4 +84,27 @@ table {
   
   th, td {
     padding: 20px;
+  }
+
+  tbody td{
+      text-align: center;
+  }
+
+  tfoot th{
+      text-align: right;
+  }
+
+  /* zebra striping */
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(111, 145, 184);
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgba(73, 141, 219);
+  }
+  
+  
+  table {
+    background-color: rgba(111, 145, 184, 0.829);
   }
