@@ -13,6 +13,10 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.container {
+    margin: 0 auto;
+    width: 75%
+}
 
 .fadeBottom {
     height: 7.4rem;
@@ -22,4 +26,61 @@
       rgba(37, 37, 37, 0.61),
       #111
     );
+  }
+.container{
+    margin: 80px auto;
+    
+    
+}
+
+input{
+    display: block;
+    width: 25%;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+input[type=text]{
+background-color: #fafafa;
+border:0;
+box-shadow:0 0 10px rgba(255, 255, 255, .99);
+transition: .3s box-shadow;
+}
+
+input[type=submit] {
+    background-color:rgba(37, 81, 224, 0.829);
+    color: white;
+    width: 20%;
+
+}
+
+  input:hover {
+    box-shadow:0 0 10px rgba(65, 236, 248, 0.829);
+  }
+
+  /* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 33%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 33%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 33%;
+  }
+  
+
+  
+  th, td {
+    padding: 20px;
   }
